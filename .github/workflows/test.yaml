@@ -30,7 +30,6 @@ jobs:
           sudo rm -rf "/usr/share/sbt" || true
           sudo rm -rf "/usr/local/sqlpackage" || true
           docker rmi $(docker image ls -q)
-          docker images
           sudo npm uninstall bazel
           rustup self uninstall -y
           sudo apt purge \
