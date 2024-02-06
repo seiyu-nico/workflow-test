@@ -1,5 +1,6 @@
 name: Size Limit
-
+on:
+  workflow_dispatch:
 
 jobs:
   docker-deploy:
